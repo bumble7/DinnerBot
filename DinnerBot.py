@@ -5,8 +5,8 @@ from discord.ext import commands
 
 bot=commands.Bot(command_prefix='!')
 
-trigger_words=['edit','this','list'] #add the trigger words to the list
-responses=['Yum!','LIES!','more things!'] #add more responses for the bot
+trigger_words=['what did underisk eat today'] #add the trigger words to the list
+responses=['Dick','Beans','Toast points and jelly'] #add more responses for the bot
 
 @bot.event
 async def on_ready():
